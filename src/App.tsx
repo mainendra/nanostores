@@ -1,7 +1,7 @@
-import { UserInput } from './UserInput';
-import { Admins } from './Admins';
-import { ConfigSection } from './Config';
-import { PokemonList } from './Poke';
+import { UserInput } from './components/UserInput';
+import { Admins } from './components/Admins';
+import { ConfigSection } from './components/Config';
+import { PokemonList } from './components/Poke';
 
 export default function App() {
   return (

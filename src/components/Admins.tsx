@@ -1,6 +1,6 @@
 import { useStore } from '@nanostores/react';
-import { admins } from './store/admins';
-import { UserType } from './store/users';
+import { admins } from '../store/admins';
+import { UserType } from '../store/users';
 
 function UserItem({ user }: { user: UserType }) {
   return (

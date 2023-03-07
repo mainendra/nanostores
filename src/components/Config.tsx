@@ -1,5 +1,5 @@
 import { useStore } from '@nanostores/react';
-import { config, replaceConfig, updateConfig } from './store/config';
+import { config, replaceConfig, updateConfig } from '../store/config';
 
 export function ConfigSection() {
   const configVal = useStore(config);

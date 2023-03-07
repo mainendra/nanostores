@@ -1,5 +1,5 @@
 import { useStore } from '@nanostores/react';
-import { fetchList, poke, PokemonType } from './store/poke';
+import { fetchList, poke, PokemonType } from '../store/poke';
 
 function PokeItem({ poke }: { poke: PokemonType }) {
   return (

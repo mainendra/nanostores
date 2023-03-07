@@ -1,5 +1,5 @@
 import { useStore } from '@nanostores/react';
-import { addUser, users } from './store/users';
+import { addUser, users } from '../store/users';
 
 export function UserInput() {
   const usersList = useStore(users);
